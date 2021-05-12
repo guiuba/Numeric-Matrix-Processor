@@ -22,11 +22,12 @@ My code:
 
 import java.util.*;
 
+
 public class Main {
+
     static Scanner scan = new Scanner(System.in);
     static boolean quit = false;
-
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         while (!quit) {
             switch (showMenu()) {
                 case 1:
